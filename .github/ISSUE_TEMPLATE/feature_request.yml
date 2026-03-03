@@ -1,0 +1,36 @@
+name: "Feature request"
+description: "Sugestao de melhoria para o firmware"
+labels: ["enhancement"]
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Resumo da melhoria
+      placeholder: O que voce quer adicionar/mudar?
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivacao
+      placeholder: Qual problema isso resolve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta tecnica
+      placeholder: Como voce imagina implementar?
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impacto esperado
+      placeholder: Beneficios, riscos e trade-offs
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas

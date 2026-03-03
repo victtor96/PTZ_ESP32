@@ -1,0 +1,25 @@
+# ESP-IDF build artifacts
+build/
+
+# CMake and Ninja cache
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# ESP-IDF local/generated files
+sdkconfig.old
+managed_components/
+
+# Python and virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Editors and OS
+.vscode/
+.idea/
+.cache/
+.DS_Store
+Thumbs.db

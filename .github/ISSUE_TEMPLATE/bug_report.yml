@@ -1,0 +1,59 @@
+name: "Bug report"
+description: "Reporte um problema encontrado no firmware"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reportar. Preencha os campos abaixo para facilitar a reproducao.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Resumo
+      placeholder: Descreva o problema em uma frase
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento esperado
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: Comportamento observado
+    validations:
+      required: true
+
+  - type: input
+    id: idf
+    attributes:
+      label: Versao ESP-IDF
+      placeholder: ex. v5.4.1
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs relevantes
+      render: shell
+
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware e ambiente
+      placeholder: placa, sensor, rede, fonte etc.
