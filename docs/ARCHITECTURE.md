@@ -21,7 +21,7 @@ Controlar parametros de cameras IP (iris/gain) com base em:
 
 ## Modulos
 
-### `0.0.1_IEBI.c`
+### `main.c`
 - Ponto de entrada (`app_main`).
 - Inicializacao de filas, mutex e criacao de tasks.
 
@@ -51,7 +51,7 @@ Controlar parametros de cameras IP (iris/gain) com base em:
 - Configuracao de canal ADC.
 - Inicializacao da calibracao de leitura.
 
-### `iebi_types.h` e `iebi_globals.c`
+### `main_types.h` e `main_globals.c`
 - Tipos compartilhados entre modulos.
 - Variaveis globais de estado e arrays de presets.
 

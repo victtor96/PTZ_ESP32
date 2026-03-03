@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # PTZ Firmware (ESP32)
+=======
+# PTZ_ESP32 Firmware (ESP32)
+>>>>>>> c7bcc32 (chore: rebrand)
 
 Firmware embarcado para ESP32 com foco em automacao de iluminacao e controle de cameras IP (iris/gain), incluindo:
 - sensor de temperatura DS18B20 (1-Wire),
@@ -22,8 +26,8 @@ O projeto foi modularizado para facilitar manutencao e evolucao, mantendo o comp
 ## Arquitetura
 
 ### Estrutura de modulos (`main/`)
-- `0.0.1_IEBI.c`: `app_main` e orquestracao de tasks/filas.
-- `iebi_types.h` / `iebi_globals.c`: tipos compartilhados, macros e estado global.
+- `main.c`: `app_main` e orquestracao de tasks/filas.
+- `main_types.h` / `main_globals.c`: tipos compartilhados, macros e estado global.
 - `wifi_manager.c`: inicializacao e eventos de Wi-Fi.
 - `network_tasks.c`: servidor TCP e clientes TCP/HTTP.
 - `sensor_tasks.c`: task de temperatura e task de sensor de luz.
@@ -71,9 +75,9 @@ Atencao: atualmente alguns parametros estao fixos em codigo.
 - Wi-Fi: `main/wifi_manager.c`
   - `WIFI_SSID`
   - `WIFI_PASS`
-- Servidor HTTP destino: `IP_SERVER` em `main/iebi_types.h`
-- Namespace NVS: `NVS_NAMESPACE` em `main/iebi_types.h`
-- Porta servidor TCP: `PORT` em `main/iebi_types.h`
+- Servidor HTTP destino: `IP_SERVER` em `main/main_types.h`
+- Namespace NVS: `NVS_NAMESPACE` em `main/main_types.h`
+- Porta servidor TCP: `PORT` em `main/main_types.h`
 
 ## Fluxo funcional resumido
 

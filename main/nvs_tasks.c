@@ -6,7 +6,7 @@
 #include "nvs_flash.h"
 #include "nvs.h"
 
-#include "iebi_types.h"
+#include "main_types.h"
 
 static void save_ptz_data_to_nvs_iris(nvs_handle_t my_handle);
 static void read_ptz_data_from_nvs_iris(nvs_handle_t my_handle, cameras_iris_src_t *retrieved_data, char title[]);

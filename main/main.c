@@ -3,7 +3,7 @@
 #include "freertos/queue.h"
 #include "freertos/semphr.h"
 
-#include "iebi_types.h"
+#include "main_types.h"
 #include "wifi_manager.h"
 #include "network_tasks.h"
 #include "sensor_tasks.h"

@@ -6,7 +6,7 @@
 #include "freertos/task.h"
 
 #include "adc_main.h"
-#include "iebi_types.h"
+#include "main_types.h"
 #include "network_tasks.h"
 #include "nvs_tasks.h"
 

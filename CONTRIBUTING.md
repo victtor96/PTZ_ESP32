@@ -1,6 +1,6 @@
 # Contribuindo
 
-Obrigado por contribuir com o firmware IEBI.
+Obrigado por contribuir com o firmware PTZ_ESP32.
 
 ## Fluxo recomendado
 

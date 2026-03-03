@@ -1,4 +1,4 @@
-#include "iebi_types.h"
+#include "main_types.h"
 
 /*
 MAP CAM IRIS
