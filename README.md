@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# PTZ Firmware (ESP32)
-=======
 # PTZ_ESP32 Firmware (ESP32)
->>>>>>> c7bcc32 (chore: rebrand)
 
 Firmware embarcado para ESP32 com foco em automacao de iluminacao e controle de cameras IP (iris/gain), incluindo:
 - sensor de temperatura DS18B20 (1-Wire),
